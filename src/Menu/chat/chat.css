@@ -1,0 +1,85 @@
+.chatWindow {
+    position: absolute;
+    width: 40ch;
+    height: 50ch;
+    margin: 70px auto;
+    padding: 10px;
+    background: white;
+    border-radius: 3ch;
+    box-shadow: 0 0 30px #eee;
+    font-size: 17px;
+    left: 5ch;
+    bottom: 10ch;
+    overflow-y: scroll;
+}
+
+.input {
+    /* position: absolute; */
+    width: 38ch;
+    border-radius: 3ch;
+    padding: 10px;
+    /* bottom: 1ch; */
+    /* left: auto; */
+}
+
+.send {
+    /* position: absolute; */
+    background-position: center;
+    background-image: url(/public/send.png);
+    background-color: rgb(255, 175, 3);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    padding: 2ch 2ch;
+    border-radius: 10ch;
+    /* cursor: pointer; */
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    /* right: 2ch; */
+    bottom: 1ch;
+    font-size: 1em;
+    height: 4.6ch;
+}
+
+.send:active {
+    background-color:rgb(182, 124, 0);
+}
+
+.message {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 2px;
+    margin-bottom: 0.5ch;
+    border-radius: 1.5ch;
+    border-width: 3px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.199);
+}
+
+.name {
+    text-align: start;
+    margin: 0 0 0 1ch;
+    color:rgb(192, 102, 0)
+}
+
+.text {
+    text-align: start;
+    word-break: break-word;
+    margin: 0 0 0 1ch;
+}
+
+.i {
+    display: flex;
+    position: fixed;
+    height: 5%;
+    width: 100%;
+    flex-direction: row;
+}
+
+.mesh{
+    position: relative;
+    height: 90%;
+}
