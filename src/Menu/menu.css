@@ -36,7 +36,7 @@
 }
 .buttonChat{
   position: absolute;
-	background-position: center;
+  background-position: center;
 	background-image: url(/public/chat.png);
 	background-color:rgb(255, 175, 3);
 	background-repeat: no-repeat;
