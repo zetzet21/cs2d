@@ -99,6 +99,46 @@ body {
 
 /* registtation */
 
+.loginBtn b {
+  font-size: 19px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform .25s;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.loginBtn b:before,
+.loginBtn b:after {
+  position: absolute;
+  content: "РЕГИСТРАЦИЯ";
+  height: 55px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.loginBtn b:before {
+  color: #fff;
+  background: #000;
+  transform: rotateY(0deg) translateZ(25px);
+}
+
+.loginBtn b:after {
+  color: #000;
+  transform: rotateX(90deg) translateZ(25px);
+}
+
+.loginBtn b:hover {
+  transform: translateZ(-25px) rotateX(-90deg);
+}
+
 .form-inner {
   position: relative;
   display: flex;

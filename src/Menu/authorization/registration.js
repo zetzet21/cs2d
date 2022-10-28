@@ -61,7 +61,7 @@ export default function Registration(props) {
       <div className="form-type">
         <span className="loginBtn">
           {''}
-          <a href="#" onClick={sendRegHendler}></a>
+          <b href="#" onClick={sendRegHendler}></b>
         </span>
         <span className="registBtn">
           <span>Уже есть аккаунт ? : </span>
