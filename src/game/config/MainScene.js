@@ -177,7 +177,6 @@ export default class MainScene extends Phaser.Scene {
       if (bullets.length > 0)
          bullets.forEach(bullet => {
             this.setBallistic(bullet);
-            console.log(bullets)
          });
    }
 
